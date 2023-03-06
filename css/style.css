@@ -41,7 +41,7 @@ h1 {
   text-align: center;
   color: #ffffff;
   margin: 0;
-  background: rgb(53, 52, 52);
+  background: rgb(0, 0, 0);
   border-radius: 10px;
   padding: 15px;
 }
@@ -125,6 +125,7 @@ ul.sub-menu a {
 
 /* --------------- Main Content ------------- */
 
+
 .bg-img {
   background-image: url(/img/withering-heights-bg.jpg);
   background-position: center;
@@ -136,7 +137,13 @@ ul.sub-menu a {
   justify-content: center;
   flex-direction: column;
   gap: 5%;
+  opacity: 0.9;
 }
+
+/* .overlay {
+  background: rgba(44, 42, 42, 0.5)
+} */
+
 
 .plot {
   background: url(/img/wh.webp) !important;
@@ -199,10 +206,14 @@ figure {
   color: #000000;
 }
 
-
-
-
-
+.card {
+  padding: 1em 1em;
+  box-shadow: -1px 5px 18px 2px rgba(0, 0, 0, 0.804);
+  border-radius: 10px;
+  max-width: 43rem;
+  /* min-width: 18.75rem; */
+  margin-bottom: 1.875rem;
+}
 
 /** Mobile **/
 @media screen and (max-width: 65rem) {
