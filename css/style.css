@@ -63,6 +63,7 @@ h3 {
 p {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
+  padding: 0 80px;
 }
 
 /* Vertical Margin Collapse VMC */
