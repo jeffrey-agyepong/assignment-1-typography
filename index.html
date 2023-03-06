@@ -1,17 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Typography Assignment</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
@@ -19,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Farsan&family=Yellowtail&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -47,13 +41,15 @@
     <div class="bg-img" id="home">
       <h1>Wuthering Heights</h1>
 
-      <a href="#about"><button>Learn More</button></a>
+      <div class="button">
+        <a href="#about">Learn More</a>
+      </div>
 
     </div>
     <section id="about">
       <div class="row">
-        <div class="column">
-          <h2 class="center">
+        <div class="column light-blue">
+          <h2>
             About
           </h2>
           <p>
@@ -70,25 +66,28 @@
             including domestic abuse, and for its challenges to Victorian morality and religious and societal values.
           </p>
         </div>
-        <div class="column">
-          <div class="img-container">
-            <img src="img/wh.webp" alt="">
-            <p>
-              Wuthering Heights was accepted by publisher Thomas Newby along with Anne Brontë's Agnes Grey before the
-              success of
-              their sister Charlotte's novel Jane Eyre, but they were published later. After Emily's death, Charlotte
-              edited a
-              second edition of Wuthering Heights, which was published in 1850. It has inspired an array of adaptations
-              across
-              several media, including English singer-songwriter Kate Bush's song of the same name.
-            </p>
-          </div>
+        <div class="column dark-blue">
+
+          <figure class="img-container">
+            <img src="img/wh-book.jfif" alt="">
+          </figure>
+          <figcaption>
+            Wuthering Heights was accepted by publisher Thomas Newby along with Anne Brontë's Agnes Grey before the
+            success of
+            their sister Charlotte's novel Jane Eyre, but they were published later. After Emily's death, Charlotte
+            edited a
+            second edition of Wuthering Heights, which was published in 1850. It has inspired an array of adaptations
+            across
+            several media, including English singer-songwriter Kate Bush's song of the same name.
+          </figcaption>
+
 
         </div>
       </div>
     </section>
     <!-- NELLY'S TALE -->
-    <section id="plot">
+    <section id="plot" class="plot">
+
       <div class="row">
         <div class="column">
           <h2>
@@ -97,24 +96,27 @@
           <h3>
             Opening
           </h3>
-          <p>
-            In 1801, Mr. Lockwood, the new tenant at Thrushcross Grange in Yorkshire, pays a visit to his landlord,
-            Heathcliff, at
-            his remote moorland farmhouse, Wuthering Heights. There he meets a reserved young woman (later identified as
-            Cathy
-            Linton), Joseph, a cantankerous servant, and Hareton, an uneducated fellow, who presents himself as such.
-            Everyone
-            is
-            sullen and inhospitable. Snowed in for the night, Lockwood reads the diary of the former inhabitant of his
-            room,
-            Catherine Earnshaw, and has a nightmare in which a ghostly Catherine begs to enter through the window.
-            Awakened by
-            Lockwood's fearful yells, Heathcliff is troubled.
-            Lockwood later returns to Thrushcross Grange in heavy snow, falls ill from the cold and becomes bedridden.
-            While
-            he
-            recovers, Lockwood's housekeeper Ellen "Nelly" Dean tells him the story of the strange family.
-          </p>
+          <div class="text-board">
+            <p>
+              In 1801, Mr. Lockwood, the new tenant at Thrushcross Grange in Yorkshire, pays a visit to his landlord,
+              Heathcliff, at
+              his remote moorland farmhouse, Wuthering Heights. There he meets a reserved young woman (later identified
+              as
+              Cathy
+              Linton), Joseph, a cantankerous servant, and Hareton, an uneducated fellow, who presents himself as such.
+              Everyone
+              is
+              sullen and inhospitable. Snowed in for the night, Lockwood reads the diary of the former inhabitant of his
+              room,
+              Catherine Earnshaw, and has a nightmare in which a ghostly Catherine begs to enter through the window.
+              Awakened by
+              Lockwood's fearful yells, Heathcliff is troubled.
+              Lockwood later returns to Thrushcross Grange in heavy snow, falls ill from the cold and becomes bedridden.
+              While
+              he
+              recovers, Lockwood's housekeeper Ellen "Nelly" Dean tells him the story of the strange family.
+            </p>
+          </div>
         </div>
         <div class="column"></div>
       </div>
@@ -122,7 +124,7 @@
 
     <section>
       <div class="row">
-        <div class="column">
+        <div class="column dark-blue">
           <h2>Nelly's tale</h2>
           <p>
             Thirty years earlier, the Earnshaws live at Wuthering Heights with their children, Hindley and Catherine,
@@ -157,8 +159,7 @@
 
           </p>
         </div>
-        <div class="column">
-
+        <div class="column light-blue">
           <p>Three years after his departure, with Edgar and Catherine having married in the meantime, Heathcliff
             unexpectedly
             returns, now a wealthy gentleman. He encourages Isabella's infatuation with him as a means of revenge on
@@ -199,7 +200,7 @@
     </section>
     <section>
       <div class="row">
-        <div class="column">
+        <div class="column light-blue">
           <h2>
             Ending
           </h2>
@@ -223,19 +224,19 @@
             wandering abroad together. Lockwood passes by the graves of Catherine, Edgar, and Heathcliff, and is
             convinced
             they
-            are finally at peace.
+            are finally at peace. </p>
         </div>
 
-        </p>
+        <div class="column dark-blue"></div>
       </div>
     </section>
     <!-- Characters - 2 -->
     <section id="characters">
       <h2 style="text-align: center;">Characters</h2>
       <div class="row row-3">
-        <div class="column">
+        <div class="column dark-blue">
           <div class="img-container">
-
+            <img src="img/catherine.png" alt="">
           </div>
           <p>
             Catherine Earnshaw: First introduced to the reader after her death, through Lockwood's discovery of her
@@ -246,9 +247,9 @@
             hours after giving birth to her daughter.
           </p>
         </div>
-        <div class="column">
+        <div class="column light-blue">
           <div class="img-container">
-
+            <img src="img/catherine.png" alt="">
           </div>
           <p> Heathcliff is a foundling from Liverpool, who is taken by Mr. Earnshaw to Wuthering Heights, where he is
             reluctantly
@@ -277,9 +278,9 @@
             Hindley
             Earnshaw and Linton Heathcliff.</p>
         </div>
-        <div class="column">
+        <div class="column dark-blue">
           <div class="img-container">
-
+            <img src="img/catherine.png" alt="">
           </div>
           <p>
             Edgar Linton: Introduced as a child in the Linton family, he resides at Thrushcross Grange. Edgar's style
@@ -294,9 +295,9 @@
         </div>
 
 
-        <div class="column">
+        <div class="column light-blue">
           <div class="img-container">
-
+            <img src="img/catherine.png" alt="">
           </div>
           <p>
             Ellen (Nelly) Dean: The main narrator of the novel, Nelly is a servant to three generations of the Earnshaws
@@ -315,9 +316,9 @@
             bystander affect the other characters and how much her narrative can be relied on.
           </p>
         </div>
-        <div class="column">
+        <div class="column dark-blue">
           <div class="img-container">
-
+            <img src="img/catherine.png" alt="">
           </div>
           <p> Isabella Linton: Edgar's sister. She views Heathcliff romantically, despite Catherine's warnings, and
             becomes an
@@ -329,9 +330,9 @@
             she
             dies.</p>
         </div>
-        <div class="column">
+        <div class="column light-blue">
           <div class="img-container">
-
+            <img src="img/catherine.png" alt="">
           </div>
           <p>
             Hareton Earnshaw: The son of Hindley and Frances, raised at first by Nelly but soon by Heathcliff. Joseph
@@ -358,7 +359,7 @@
         Publication history
       </h2>
       <div class="row">
-        <div class="column">
+        <div class="column light-blue">
           <h3>
             1847 edition
           </h3>
@@ -371,7 +372,7 @@
             volumes and Agnes Grey made up the third.
           </p>
         </div>
-        <div class="column">
+        <div class="column dark-blue">
           <h3>
             1850 edition
           </h3>
