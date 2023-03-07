@@ -159,11 +159,12 @@ ul.sub-menu a {
 
 
 .plot {
-  background: url(/img/plot.jpg) !important;
+  background-image: url(/img/plot.jpg) !important;
   background-position: center;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   display: flex;
+  background-attachment: fixed;
 }
 
 .plot-card {
