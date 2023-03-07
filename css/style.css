@@ -71,6 +71,8 @@ h2,
 h3 {
   font-family: 'Farsan';
   text-align: center;
+  color: #ffff;
+  text-transform: uppercase;
 }
 
 p {
@@ -248,6 +250,8 @@ figure {
   max-width: 43rem;
   /* min-width: 18.75rem; */
   margin-bottom: 1.5rem;
+  background: #244b57;
+  color: #ff9e00;
 }
 
 .mb-100 {
@@ -368,6 +372,18 @@ figure {
 
   img {
     max-height: 12.5rem;
+  }
+
+  .publications img {
+    max-height: 25.5rem;
+  }
+
+  .publications .column {
+    justify-content: center;
+  }
+
+  .publications .card {
+    margin-top: 1.5rem;
   }
 
   .column {
