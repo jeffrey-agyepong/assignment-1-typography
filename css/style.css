@@ -272,6 +272,8 @@ figure {
   width: 90%;
 }
 
+
+
 footer {
   background-color: #04485e;
   text-align: center;
@@ -423,6 +425,14 @@ footer a {
     margin-top: 1.5rem;
   }
 
+  .ch-img img {
+    max-height: 240px;
+    border-radius: 24px;
+  }
+
+  .h-384 {
+    min-height: 384px;
+  }
 
   .column {
     padding: 0 2.5rem;
