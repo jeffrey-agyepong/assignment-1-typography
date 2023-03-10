@@ -48,10 +48,17 @@ h1 {
   line-height: 4.5;
   text-align: center;
   color: #ffffff;
-  color: black;
   margin: 0;
-  border-radius: 0.625rem;
-  margin-bottom: 1.5rem;
+}
+
+.hero-h1 {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  background-color: #000000;
+  height: 144px;
 }
 
 h2 {
@@ -253,8 +260,8 @@ figure {
 }
 
 
-.mh-690 {
-  min-height: 690px;
+.mh-360 {
+  min-height: 360px;
 }
 
 .w50 {
@@ -415,6 +422,7 @@ footer a {
   .publications .card {
     margin-top: 1.5rem;
   }
+
 
   .column {
     padding: 0 2.5rem;
