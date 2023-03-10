@@ -435,6 +435,10 @@ footer a {
     min-height: 384px;
   }
 
+  .h-696 {
+    min-height: 696px;
+  }
+
   .column {
     padding: 0 2.5rem;
   }
