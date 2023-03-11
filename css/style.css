@@ -21,7 +21,7 @@ section {
 
 .inner-container {
   max-width: 87.5rem;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .flex {
@@ -93,6 +93,7 @@ p {
   font-size: 1rem;
   line-height: 1.5;
   padding: 0 2.8125rem;
+
 }
 
 /* Vertical Margin Collapse VMC */
@@ -252,16 +253,15 @@ figure {
   padding: 1.5rem 1.5rem;
   box-shadow: -0.0625rem 0.3125rem 1.125rem 0.125rem rgba(0, 0, 0, 0.804);
   border-radius: 0.625rem;
-  max-width: 35rem;
-
   margin-bottom: 1.5rem;
   background: #181A1B;
+  min-width: 45ch;
   color: #f1f0e7;
 }
 
 
-.mh-360 {
-  min-height: 22.5rem;
+.mh-288 {
+  min-height: 18rem;
 }
 
 .w50 {
@@ -427,20 +427,24 @@ footer a {
   }
 
   .ch-img img {
-    max-height: 240px;
-    border-radius: 24px;
+    max-height: 15rem;
+    border-radius: 1.5rem;
   }
 
   .h-384 {
-    min-height: 384px;
+    min-height: 24rem;
   }
 
-  .h-696 {
-    min-height: 696px;
+  .h-336 {
+    min-height: 21rem;
+  }
+
+  .h-576 {
+    min-height: 36rem;
   }
 
   .column {
-    padding: 0 2.5rem;
+    padding: 0 0.5rem;
   }
 
   .row {
